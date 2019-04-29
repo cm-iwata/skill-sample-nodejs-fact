@@ -71,7 +71,7 @@ const GetNewFactHandler = {
   };
   
   const FallbackHandler = {
-    // 2018-May-01: AMAZON.FallackIntent は現在 en-US のみ対応しております。
+    // 2018-May-01: AMAZON.FallbackIntent は現在 en-US のみ対応しております。
     //              その他の地域・言語では呼び出されませんが、デプロイには問題
     //              ありません。    
     canHandle(handlerInput) {
